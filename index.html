@@ -8,26 +8,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="bootstrap.min (3).css">
+  <link rel="stylesheet" href="bootstrap.min (4).css">
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <header class="container-fluid bg-dark">
+  <header class="container-fluid bg-primary">
     <div class="row justify-content-between text-center">
-      <div class="col-12 d-flex flex-row justify-content-around text-center p-3 text-light ">
-        <h2>Enemy: <span id='enemyname'></span></h2>
+      <div class="col-12 d-flex flex-row justify-content-around text-center p-3">
+        <h2 class="text-secondary">Enemy: <span class="text-warning" id='enemyname'></span></h2>
 
-        <h2>Heath: <span id="health"></span></h2>
+        <h2 class="text-secondary">Health: <span class="text-danger" id="health"></span></h2>
 
-        <h2>Hits: <span id='hitcounter'></span></h2>
+        <h2 class="text-secondary">Hits: <span class="text-info" id='hitcounter'></span></h2>
       </div>
     </div>
     </row>
   </header>
   <main class="container-fluid bg-light">
-    <div class="row text-center m-5 align-items-center justify-content-center">
-      <div class="col-6 m-5" id="portrait">
+    <div class="row text-center  align-items-center justify-content-center">
+      <div class="col-md-6 m-5" id="portrait">
 
 
 
@@ -41,26 +41,26 @@
     </div>
 
   </main>
-  <footer class="container-fluid bg-dark">
+  <footer class="container-fluid bg-primary">
     <div class="row text-center" id="gamecontrols">
       <div class="col-4 p-2 my-2">
         <a href="#" class="link wobble-vertical-on-hover">
-          <button type="button" id="button" class="btn btn-outline-success" onclick="play('slap')">
-            <h4>Slap</h4>
+          <button type="button" id="button" class="btn btn-success" onclick="play('slap')">
+            <h4 class="text-light">Slap</h4>
           </button>
         </a>
       </div>
       <div class="col-4 p-2 my-2">
         <a href="#" class="link wobble-vertical-on-hover">
-          <button type="button" id="button" class="btn btn-outline-danger" onclick="play('punch')">
-            <h4>Punch</h4>
+          <button type="button" id="button" class="btn btn-danger" onclick="play('punch')">
+            <h4 class="text-light">Punch</h4>
           </button>
         </a>
       </div>
       <div class="col-4 p-2 my-2">
         <a href="#" class="link wobble-vertical-on-hover">
-          <button type="button" id="button" class="btn btn-outline-warning" onclick="play('kick')">
-            <h4>Kick</h4>
+          <button type="button" id="button" class="btn btn-warning" onclick="play('kick')">
+            <h4 class="text-light">Kick</h4>
           </button>
         </a>
       </div>
