@@ -31,6 +31,10 @@ footer{
 .hidden{
   display: none;
 }
+img{
+  min-height: 400px;
+  min-width: 400px;
+}
 
 /*===================*/
 /* WOOBLE VERTICAL
